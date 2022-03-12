@@ -7,14 +7,13 @@ public class Main {
 public ArrayList StaffMember = new StaffMember("Shoeb", "Harris", "ICT12"), "40"),
     public ArrayList StaffMember = new StaffMember("Randale", "Brown", "ICT12"), "36"),
     public ArrayList StaffMember = new StaffMember("Lenice", "Brissett", "ICT12"), "40"),
-    public ArrayList StaffMember =  new StaffMember("Nichola", "Grey", "ICT12"), "48"),
-}
-        void addStaffMember(StaffMember a){
+    public ArrayList StaffMember =  new StaffMember("Nicola", "Grey", "ICT12"), "48"),
+
+    void addStaffMember(StaffMember a){
     StaffMember.add(a);
         }
     void getHoursWorked(double hours){
        this.a.getHoursWorked();
     }
-
 
 }
