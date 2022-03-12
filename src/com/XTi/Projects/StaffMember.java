@@ -38,3 +38,9 @@ public StaffMember(String fname, String lname, String deptnum, double hours){
     }
 
 }
+
+void double CalculateSalary(){
+        ManagerSalary = ((hoursWorked * 2500) + Bonus);
+
+        Sales_RepSalary = ((hoursWorked * 1500) + Allowance);
+}
